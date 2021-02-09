@@ -82,9 +82,17 @@ link to finished codepen xxxxxxx
     35. How often should I commit to github?
         When you're done with a section or every 20 minutes.
     36. What is the command we would use to push our repo up to github? 
-        
+        git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
-
+        Fork repository
+        git clone <link> to clone the repo to the directly I'm in
+        cd into the new repo
+        git checkout -b first-last to create my own branch name for the repo
+        code . to open Visual Studio
+        git add . after making changes to make them ready for commiting
+        git commit -m 'commit message' will commit the changes with my commit message
+        git push -u origin branch-name (only use branch name once) will push all commits into local machine up into github
+        now that changes are in github, I can submit a pull request
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
